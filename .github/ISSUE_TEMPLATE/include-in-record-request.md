@@ -6,6 +6,8 @@ labels: enhancement
 assignees: ''
 
 ---
+## Español
+
 **¿Cuál es el nombre del proyecto que desea incluir?**
 
 **Enlace al proyecto**
@@ -20,6 +22,7 @@ assignees: ''
 Agregue cualquier otro contexto o capturas de pantalla sobre el trabajo aquí.
 
 ---
+## Português
 
 **Qual é o nome do projeto que você deseja incluir?**
 
@@ -35,6 +38,7 @@ Agregue cualquier otro contexto o capturas de pantalla sobre el trabajo aquí.
 Adicione qualquer outro contexto ou capturas de tela sobre o trabalho aqui.
 
 ---
+## English
 
 **What is the name of the project you want to be included?**
 
