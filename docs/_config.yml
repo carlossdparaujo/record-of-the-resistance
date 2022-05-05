@@ -24,7 +24,7 @@ baseurl: https://carlossdparaujo.github.io
 url: /record-of-the-resistance/
 
 # Build settings
-theme: minima
+theme: cayman
 plugins:
   - jekyll-feed
 
