@@ -10,7 +10,7 @@ assignees: ''
 
 **¿Cuál es el nombre del proyecto que desea incluir?**
 
-**Enlace al proyecto**
+**Enlace del proyecto**
 
 **¿Dónde se encuentra este proyecto?**
 
