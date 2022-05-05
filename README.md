@@ -9,7 +9,7 @@ The Record of the Resistance is a collection of art, projects, NGOs and working 
 
 ## For contributors
 
-### Evaluating [INCLUDE TO RECORD] requests
+### Evaluating *Include to Record* requests
 
 ### How to add a new record?
 
