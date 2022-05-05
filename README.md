@@ -7,7 +7,7 @@ The Record of the Resistance is a collection of art, projects, NGOs and working 
 
 ### How to add something to the record?
 
-## For contributors
+## For collaborators
 
 ### Evaluating *Include to Record* requests
 
