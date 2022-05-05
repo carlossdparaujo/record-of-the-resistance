@@ -3,10 +3,15 @@
 ## About us
 The Record of the Resistance is a collection of art, projects, NGOs and working groups from around the world made by revolutionary people resisting oppresion in their home countries.
  
+## For everyone
 
-## Record
+### How to add something to the record?
 
-// todo
+## For contributors
+
+### Evaluating [INCLUDE TO RECORD] requests
+
+### How to add a new record?
 
 ## People
 
