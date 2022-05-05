@@ -1,6 +1,7 @@
-# {Name of project}
+# Name of project
 
-* [Link](www.duckduckgo.com)
+* [Link to project](www.duckduckgo.com)
 * **Based on:** *location*
 
 ## Description
+*Description of project*
