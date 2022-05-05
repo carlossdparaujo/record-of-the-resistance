@@ -1,4 +1,13 @@
-# Record of the Resistance
+# Recordkeepers of the Resistance
+
+<table>
+	<th>Project</th>
+	<th>Location</th>
+  <tr>
+		<td>Foo</td>
+		<td>Foo</td>
+	</tr>
+</table>
 
 ## About us
 Recordkeepers aims to be a space for building bridges and resources among Latin America counter- archivists, memory keepers and their communities. These archives promote individual and collective sense of belonging to populations that have had their memory damned by centuries of colonialism politics. This form of strategic memory neglect focuses on individuals that are dissents due to sexual orientation, race, gender identity, ethnicity and political alignment.
