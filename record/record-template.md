@@ -1,8 +1,6 @@
-# {Name of Work}
+# {Name of project}
 
 * [Link](www.duckduckgo.com)
-* **Location:** 
+* **Based on:** *location*
 
 ## Description
-
-## Why is this important?
