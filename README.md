@@ -52,5 +52,6 @@ Our team works on this project vollunteraly so the time to respond and add sugge
 ## People
 This project is maintaned by a group of vollunters, we believe in collective building this space and if you would like to collaborate please send an email to recordkeepers@protonmail.com 
 
+It was created by two technobrujas:
 * [Isabella Barroso de Oliveira](http://isabarroso.com/)
 * [Carlos Sergio de Paiva Araujo](https://github.com/carlossdparaujo)
