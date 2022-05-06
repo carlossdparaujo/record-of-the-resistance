@@ -14,8 +14,8 @@ permalink: /include/
   <label for="location">Where is this project located?*</label><br>
   <input type="text" id="location" name="location" value="Location"><br><br>
   
-  <label for="description">Describe the project and why it should be included in the Record:*</label><br>
-  <input type="textarea" id="description" name="description" value="Description"><br><br>
+  <label for="description">Describe the project and why it should be included in the Record:*</label>
+  <textarea rows="5" cols="80" id="description" name="description"></textarea><br><br>
   
   <label for="community">Archive serves the following dissident community:*</label><br>
   <select id="community" name="community">
@@ -27,7 +27,7 @@ permalink: /include/
     <option value="other">Other</option>
   </select><br><br>
   
-  <label for="addcontext">Additional context:</label><br>
+  <label for="addcontext">Additional context:</label>
   <textarea rows="5" cols="80" id="addcontext" name="addcontext"></textarea><br><br>
   
   <input type="submit" value="Send">
