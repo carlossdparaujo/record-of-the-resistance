@@ -8,7 +8,7 @@ permalink: /include/
   <label for="name">What is the name of the project you want to be included?*</label><br>
   <input type="text" id="name" name="name" value="Name of project"><br><br>
   
-  <label for="link">Link to the project*</label><br>
+  <label for="link">Link to the project:*</label><br>
   <input type="text" id="link" name="link" value="https://link.org"><br><br>
   
   <label for="location">Where is this project located?*</label><br>
