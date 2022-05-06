@@ -28,7 +28,7 @@ permalink: /include/
   </select><br><br>
   
   <label for="addcontext">Additional context:</label><br>
-  <textarea id="addcontext" name="addcontext" rows="4" cols="50">Context</textarea><br><br>
+  <input type="textarea" id="addcontext" name="addcontext" value="Context"><br><br>
   
   <input type="submit" value="Send">
 </form> 
