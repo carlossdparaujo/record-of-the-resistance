@@ -1,6 +1,5 @@
 ---
 layout: default
-list_title: "Records"
 ---
 
 <div class="home">
@@ -12,28 +11,28 @@ list_title: "Records"
 
 
   {% if site.paginate %}
-    {% assign records = paginator.posts %}
+    {% assign posts = paginator.posts %}
   {% else %}
-    {% assign records = site.posts %}
+    {% assign posts = site.posts %}
   {% endif %}
 
 
-  {%- if records.size > 0 -%}
+  {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for record in records -%}
+      {%- for post in posts -%}
       <li>
-        <span class="post-meta">{{ record.date | date: date_format }}</span>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ record.url | relative_url }}">
-            {{ record.title | escape }}
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ record.excerpt }}
+          {{ post.excerpt }}
         {%- endif -%}
       </li>
       {%- endfor -%}
