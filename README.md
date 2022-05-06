@@ -51,14 +51,14 @@ If the project fits our criteria then it should be included in the record, to do
 ### How to add a new record?
 To add a new record is fairly simple:
 1. Add a new file under `docs/_posts/`
-2. The file must be named YEAR-MM-DD-name-of-project.markdown
+2. The file must be named `YYYY-MM-DD-name-of-project.markdown`
 3. The file must have the following format:
 ```
 ---
 layout: post
 title:  "Name of Project"
 date:   YYYY-MM-DD HH:MM:SS -0300
-categories: {sexual|gender|race|political|ethnicity|other}
+categories: Choose one of {sexual|gender|race|political|ethnicity|other}
 ---
 
 // TODO
