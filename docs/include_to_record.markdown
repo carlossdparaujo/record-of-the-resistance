@@ -27,7 +27,7 @@ permalink: /include/
     <option value="other">Other</option>
   </select><br><br>
   
-  <label for="addcontext">Additional context</label><br>
+  <label for="addcontext">Additional context:</label><br>
   <input type="text" id="addcontext" name="addcontext" value="Context"><br><br>
   
   <input type="submit" value="Send">
