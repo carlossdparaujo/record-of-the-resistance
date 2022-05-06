@@ -1,14 +1,5 @@
 # Recordkeepers of the Resistance
 
-<table>
-	<th>Project</th>
-	<th>Location</th>
-  <tr>
-		<td>Foo</td>
-		<td>Foo</td>
-	</tr>
-</table>
-
 ## Proyecto/About us
 
 **Español** 
@@ -38,16 +29,43 @@ Este é um exercício coletivo de mapeamento de contraarquivos na região da Am�
 This is a collective exercise to map counter archives in the Latin America and the Caribbean region. A digital space where researchers, activists and dissident communities can search for and share the existence of the dissident archives.
 
 ## For everyone
+If you have any achival and memory keeping projects you like to suggest to be listed here and that falls in to the definition of dissidents in the region, please follow the intructions on how to request for a new project to be included in the record.
 
-### How to add something to the record?
+### How to request that a project be added to the record?
+In order to request to request for a new project to be included in the record you can either open a new GitHub Issue directly in this repository or submit it via the form at https://carlossdparaujo.github.io/record-of-the-resistance/include/.
+
+Our team works on this project vollunteraly so the time to respond and add suggested organizations might vary.  
 
 ## For collaborators
-If you have any achival and memory keeping projects you like to suggest to be listed here and that falls in to the definition of dissidents in the region, please follow the intructions on how to add a new record.
 
-### Evaluating *Include to Record* requests
-Our team works on this project vollunteraly so the time to respond and add suggested organizations might vary.
+### Evaluating *Include to Record* issue requests
+When evaluating new requests you first should make sure that all the necessary information was provided in the request, that being:
+* Name of project
+* Link to project
+* Location
+* Description
+* Which dissident community it works with
+
+If the project fits our criteria then it should be included in the record, to do so please follow the instructions in how to add a new record.
 
 ### How to add a new record?
+To add a new record is fairly simple:
+1. Add a new file under `docs/_posts/`
+2. The file must be named YEAR-MM-DD-name-of-project.markdown
+3. The file must have the following format:
+```
+---
+layout: post
+title:  "Name of Project"
+date:   YYYY-MM-DD HH:MM:SS -0300
+categories: {sexual|gender|race|political|ethnicity|other}
+---
+
+// TODO
+
+```
+4. After including the file it will be automatically displayed on the website once the repository is built in GitHub.
+5. You can check the progress of the build under the **Actions** tab.
 
 ## People
 This project is maintaned by a group of vollunters, we believe in collective building this space and if you would like to collaborate please send an email to recordkeepers@protonmail.com 
