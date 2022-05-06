@@ -15,7 +15,7 @@ permalink: /include/
   <input type="text" id="location" name="location" value="Location"><br><br>
   
   <label for="description">Describe the project and why it should be included in the Record:*</label><br>
-  <textarea id="description" name="description" rows="4" cols="50">Description</textarea><br><br>
+  <input type="textarea" id="description" name="description" value="Description"><br><br>
   
   <label for="community">Archive serves the following dissident community:*</label><br>
   <select id="community" name="community">
