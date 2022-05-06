@@ -23,7 +23,7 @@ url: carlossdparaujo.github.io/record-of-the-resistance/
 
 # Build settings
 markdown: GFM
-theme: minima
+theme: cayman
 plugins:
   - jekyll-feed
 
