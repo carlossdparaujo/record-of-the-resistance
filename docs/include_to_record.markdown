@@ -4,7 +4,7 @@ title: Include to Record
 permalink: /include/
 ---
 
-<form action="">
+<form action="https://formspree.io/f/mgedpgaw" method="POST">
   <label for="name">What is the name of the project you want to be included?*</label><br>
   <input type="text" id="name" name="name" value="Name of project"><br><br>
   
@@ -15,7 +15,7 @@ permalink: /include/
   <input type="text" id="location" name="location" value="Location"><br><br>
   
   <label for="description">Describe the project and why it should be included in the Record:*</label><br>
-  <input type="text" id="description" name="description" value="Description"><br><br>
+  <textarea id="description" name="description" value="Description"></textarea><br><br>
   
   <label for="community">Archive serves the following dissident community:*</label><br>
   <select id="community" name="community">
@@ -28,7 +28,7 @@ permalink: /include/
   </select><br><br>
   
   <label for="addcontext">Additional context:</label><br>
-  <input type="text" id="addcontext" name="addcontext" value="Context"><br><br>
+  <textarea id="addcontext" name="addcontext" value="Context"></textarea><br><br>
   
   <input type="submit" value="Send">
 </form> 
