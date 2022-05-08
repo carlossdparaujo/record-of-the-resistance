@@ -61,8 +61,13 @@ date:   YYYY-MM-DD HH:MM:SS -0300
 categories: Choose one of {sexual|gender|race|political|ethnicity|other}
 ---
 
-// TODO
+# Name of Project
 
+* [Link to project](www.duckduckgo.com)
+* Based on *location*
+* Added by *your handle*
+
+Describe the project and why it was included in the Record.
 ```
 4. After including the file it will be automatically displayed on the website once the repository is built in GitHub.
 5. You can check the progress of the build under the **Actions** tab.
