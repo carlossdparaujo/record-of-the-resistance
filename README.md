@@ -73,7 +73,7 @@ Describe the project and why it was included in the Record.
 5. You can check the progress of the build under the **Actions** tab.
 
 ## People
-This project is maintaned by a group of vollunters, we believe in collective building this space and if you would like to collaborate please send an email to recordkeepers@protonmail.com 
+This project is maintaned by a group of volunters, we believe in collective building this space and if you would like to collaborate please send an email to recordkeepers@protonmail.com 
 
 It was created by two technobrujas:
 * [Isabella Barroso de Oliveira](http://isabarroso.com/)
