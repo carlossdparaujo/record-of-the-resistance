@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Include to Record
+title: Include to the project Archives listing
 permalink: /include/
 ---
 
@@ -14,7 +14,7 @@ permalink: /include/
   <label for="location">Where is this project located?*</label><br>
   <input type="text" id="location" name="location" value="Location" required><br><br>
   
-  <label for="description">Describe the project and why it should be included in the Record:*</label>
+  <label for="description">Describe the project and why it should be included:*</label>
   <textarea rows="5" cols="80" id="description" name="description" required></textarea><br><br>
   
   <label for="community">Archive serves the following dissident community:*</label><br>
