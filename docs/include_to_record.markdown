@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Include to the project Archives listing
+title: Include to the project Archive listing
 permalink: /include/
 ---
 
