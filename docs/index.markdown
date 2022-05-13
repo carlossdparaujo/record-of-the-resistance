@@ -6,6 +6,8 @@ layout: home
 list_title: 'Records'
 ---
 
+# Recordkeepers of the Resistance
+
 ## Español
 
 Este es un ejercicio colectivo para mapear contraarchivos en la región de América Latina y el Caribe. Un espacio digital donde investigadores, activistas y comunidades disidentes pueden buscar y compartir la existencia de los archivos disidentes.
