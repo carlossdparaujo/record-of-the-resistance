@@ -31,7 +31,7 @@ permalink: /include/
     <label>Political</label><br>
     <input type="checkbox" value="other">
     <label>Other</label>
-  </input>
+  </div>
   <br><br>
   
   <label for="addcontext">Additional context:</label>
