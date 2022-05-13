@@ -18,12 +18,18 @@ permalink: /include/
   <textarea rows="5" cols="80" id="description" name="description" required></textarea><br><br>
   
   <label for="community">Archive serves the following dissident community:*</label><br>
-  <input type="checkbox" id="community" name="community" value="Sexual Orientation">
-  <input type="checkbox" id="community" name="community" value="Race">
-  <input type="checkbox" id="community" name="community" value="Gender Identity">
-  <input type="checkbox" id="community" name="community" value="Ethnicity">
-  <input type="checkbox" id="community" name="community" value="Political Alignment">
-  <input type="checkbox" id="community" name="community" value="Other">
+  <input type="checkbox" id="community" name="community" value="sexual">
+  <label for="vehicle3">Sexual Orientation</label><br><br>
+  <input type="checkbox" id="community" name="community" value="race">
+  <label for="vehicle3">Race</label><br><br>
+  <input type="checkbox" id="community" name="community" value="gender">
+  <label for="vehicle3">Gender Identity</label><br><br>
+  <input type="checkbox" id="community" name="community" value="ethnicity">
+  <label for="vehicle3">Ethnicity</label><br><br>
+  <input type="checkbox" id="community" name="community" value="political">
+  <label for="vehicle3">Political</label><br><br>
+  <input type="checkbox" id="community" name="community" value="other">
+  <label for="vehicle3">Other</label><br><br>
   <br><br>
   
   <label for="addcontext">Additional context:</label>
