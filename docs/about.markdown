@@ -6,7 +6,7 @@ permalink: /about/
 
 ### Sobre
 
-Guardiãs Da Resistência nasceu como ["Recordkeepers of the Resistance"](https://meedan.com/blog/pt/preserving-latin-american-activist-history-on-social-media/), é um projeto que pretende ser um espaço de construção de pontes e recursos entre os contra-arquivistas, guardiões da memória e suas comunidades latino-americanos. Esses arquivos promovem o sentimento de pertencimento individual e coletivo a populações que tiveram sua memória condenada por séculos de política colonialista. Essa forma de negligência de memória estratégica concentra-se em indivíduos que são dissidentes devido à orientação sexual, raça, identidade de gênero, etnia e alinhamento político.
+Guardiãs Da Resistência nasceu como um projeto de pesquisa ["Recordkeepers of the Resistance"](https://meedan.com/blog/pt/preserving-latin-american-activist-history-on-social-media/), e tomou aqui essa forma: pretende ser um espaço de construção de pontes e recursos entre os contra-arquivistas, guardiões da memória e suas comunidades latino-americanos. Esses arquivos promovem o sentimento de pertencimento individual e coletivo a populações que tiveram sua memória condenada por séculos de política colonialista. Essa forma de negligência de memória estratégica concentra-se em indivíduos que são dissidentes devido à orientação sexual, raça, identidade de gênero, etnia e alinhamento político.
 
 ### Comunidade
 
