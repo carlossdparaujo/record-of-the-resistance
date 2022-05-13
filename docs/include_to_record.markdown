@@ -4,6 +4,7 @@ title: Incluir no mapeamento
 permalink: /include/
 ---
 
+
 Se você tem algum projeto de arquivo e memória que gostaria de sugerir para ser listado aqui e que se enquadre na definição de dissidentes na região, siga as instruções sobre como solicitar a inclusão de um novo projeto no registro.
 
 
