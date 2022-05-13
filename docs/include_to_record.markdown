@@ -4,11 +4,12 @@ title: Incluir no mapeamento
 permalink: /include/
 ---
 
-*Português*
+**Português**
+
 Se você tem algum projeto de arquivo e memória que gostaria de sugerir para ser listado aqui e que se enquadre na definição de dissidentes na região, siga as instruções sobre como solicitar a inclusão de um novo projeto no registro.
 
 
-*Español*
+**Español**
 
 Si tiene algún proyecto de logro y mantenimiento de la memoria que le gustaría sugerir que se incluya aquí y que se ajuste a la definición de disidentes en la región, siga las instrucciones sobre cómo solicitar que se incluya un nuevo proyecto en el registro.
 
