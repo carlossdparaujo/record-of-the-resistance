@@ -18,20 +18,18 @@ permalink: /include/
   <textarea rows="5" cols="80" id="description" name="description" required></textarea><br><br>
   
   <label for="community">Archive serves the following dissident community:*</label><br>
-  <div id="community" name="community" required>
-    <input type="checkbox" value="sexual">
-    <label>Sexual Orientation</label><br>
-    <input type="checkbox" value="race">
-    <label>Race</label><br>
-    <input type="checkbox" value="gender">
-    <label>Gender Identity</label><br>
-    <input type="checkbox" value="ethnicity">
-    <label>Ethnicity</label><br>
-    <input type="checkbox" value="political">
-    <label>Political</label><br>
-    <input type="checkbox" value="other">
-    <label>Other</label>
-  </div>
+  <input type="checkbox" id="sexual_community" name="sexual_community" value="sexual">
+  <label for="sexual_community">Sexual Orientation</label><br>
+  <input type="checkbox" id="race_community" name="race_community" value="race">
+  <label for="race_community">Race</label><br>
+  <input type="checkbox" id="gender_community" name="gender_community" value="gender">
+  <label for="gender_community">Gender Identity</label><br>
+  <input type="checkbox" id="ethnicity_community" name="ethnicity_community" value="ethnicity">
+  <label for="ethnicity_community">Ethnicity</label><br>
+  <input type="checkbox" id="political_community" name="political_community" value="political">
+  <label for="political_community">Political</label><br>
+  <input type="checkbox" id="other_community" name="other_community" value="other">
+  <label for="other_community">Other</label>
   <br><br>
   
   <label for="addcontext">Additional context:</label>
