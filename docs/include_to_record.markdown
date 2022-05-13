@@ -18,14 +18,13 @@ permalink: /include/
   <textarea rows="5" cols="80" id="description" name="description" required></textarea><br><br>
   
   <label for="community">Archive serves the following dissident community:*</label><br>
-  <select id="community" name="community" multiple required>
-    <option value="sexual">Sexual Orientation</option>
-    <option value="race">Race</option>
-    <option value="gender">Gender Identity</option>
-    <option value="ethnicity">Ethnicity</option>
-    <option value="political">Political Alignment</option>
-    <option value="other">Other</option>
-  </select><br><br>
+  <input type="checkbox" id="community" name="community" value="Sexual Orientation">
+  <input type="checkbox" id="community" name="community" value="Race">
+  <input type="checkbox" id="community" name="community" value="Gender Identity">
+  <input type="checkbox" id="community" name="community" value="Ethnicity">
+  <input type="checkbox" id="community" name="community" value="Political Alignment">
+  <input type="checkbox" id="community" name="community" value="Other">
+  <br><br>
   
   <label for="addcontext">Additional context:</label>
   <textarea rows="5" cols="80" id="addcontext" name="addcontext"></textarea><br><br>
