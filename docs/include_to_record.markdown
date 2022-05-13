@@ -18,7 +18,7 @@ permalink: /include/
   <textarea rows="5" cols="80" id="description" name="description" required></textarea><br><br>
   
   <label for="community">Archive serves the following dissident community:*</label><br>
-  <select id="community" name="community" required>
+  <select id="community" name="community" multiple required>
     <option value="sexual">Sexual Orientation</option>
     <option value="race">Race</option>
     <option value="gender">Gender Identity</option>
