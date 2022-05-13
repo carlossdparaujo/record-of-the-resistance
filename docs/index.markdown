@@ -6,13 +6,14 @@ layout: home
 list_title: 'Records'
 ---
 
-Recordkeepers of the Resistance is a project that aims to create a space for building bridges and resources among Latin America´s and the Caribbean counter-archivists, memory keepers and their communities.
+## Español
 
-This archive is collectively build, to request that a project be included follow the form in the **Include to Record** form or open an issue on our [GitHub project page](https://github.com/carlossdparaujo/record-of-the-resistance).
+Este es un ejercicio colectivo para mapear contraarchivos en la región de América Latina y el Caribe. Un espacio digital donde investigadores, activistas y comunidades disidentes pueden buscar y compartir la existencia de los archivos disidentes.
 
-## People
-This project is maintaned by a group of volunters, we believe in collective building this space and if you would like to collaborate please send an email to recordkeepers@protonmail.com 
+## Português
 
-It was created by two technobrujas:
-* [Isabella Barroso de Oliveira](http://isabarroso.com/)
-* [Carlos Sergio de Paiva Araujo](https://github.com/carlossdparaujo)
+Este é um exercício coletivo de mapeamento de contraarquivos na região da América Latina e Caribe. Um espaço digital onde pesquisadores, ativistas e comunidades dissidentes podem pesquisar e compartilhar a existência dos arquivos dissidentes.
+
+## English 
+
+This is a collective exercise to map counter archives in the Latin America and the Caribbean region. A digital space where researchers, activists and dissident communities can search for and share the existence of the dissident archives.
