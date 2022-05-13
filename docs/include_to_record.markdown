@@ -18,18 +18,20 @@ permalink: /include/
   <textarea rows="5" cols="80" id="description" name="description" required></textarea><br><br>
   
   <label for="community">Archive serves the following dissident community:*</label><br>
-  <input type="checkbox" id="community" name="community" value="sexual">
-  <label for="vehicle3">Sexual Orientation</label><br>
-  <input type="checkbox" id="community" name="community" value="race">
-  <label for="vehicle3">Race</label><br>
-  <input type="checkbox" id="community" name="community" value="gender">
-  <label for="vehicle3">Gender Identity</label><br>
-  <input type="checkbox" id="community" name="community" value="ethnicity">
-  <label for="vehicle3">Ethnicity</label><br>
-  <input type="checkbox" id="community" name="community" value="political">
-  <label for="vehicle3">Political</label><br>
-  <input type="checkbox" id="community" name="community" value="other">
-  <label for="vehicle3">Other</label>
+  <input for="community" required>
+    <input type="checkbox" id="community" name="community" value="sexual">
+    <label for="vehicle3">Sexual Orientation</label><br>
+    <input type="checkbox" id="community" name="community" value="race">
+    <label for="vehicle3">Race</label><br>
+    <input type="checkbox" id="community" name="community" value="gender">
+    <label for="vehicle3">Gender Identity</label><br>
+    <input type="checkbox" id="community" name="community" value="ethnicity">
+    <label for="vehicle3">Ethnicity</label><br>
+    <input type="checkbox" id="community" name="community" value="political">
+    <label for="vehicle3">Political</label><br>
+    <input type="checkbox" id="community" name="community" value="other">
+    <label for="vehicle3">Other</label>
+  </input>
   <br><br>
   
   <label for="addcontext">Additional context:</label>
