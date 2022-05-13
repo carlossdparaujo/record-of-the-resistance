@@ -11,7 +11,7 @@ Se você tem algum projeto de arquivo e memória que gostaria de sugerir para se
 
 **Español**
 
-Si tiene algún proyecto de logro y mantenimiento de la memoria que le gustaría sugerir que se incluya aquí y que se ajuste a la definición de disidentes en la región, siga las instrucciones sobre cómo solicitar que se incluya un nuevo proyecto en el registro.
+Si tiene algún proyecto de archivo y mantenimiento de la memoria que le gustaría sugerir que se incluya aquí y que se ajuste a la definición de disidentes en la región, siga las instrucciones sobre cómo solicitar que se incluya un nuevo proyecto en el registro.
 
 
 <form action="https://formspree.io/f/mgedpgaw" method="POST">
