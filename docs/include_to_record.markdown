@@ -19,17 +19,17 @@ permalink: /include/
   
   <label for="community">Archive serves the following dissident community:*</label><br>
   <input type="checkbox" id="community" name="community" value="sexual">
-  <label for="vehicle3">Sexual Orientation</label><br><br>
+  <label for="vehicle3">Sexual Orientation</label><br>
   <input type="checkbox" id="community" name="community" value="race">
-  <label for="vehicle3">Race</label><br><br>
+  <label for="vehicle3">Race</label><br>
   <input type="checkbox" id="community" name="community" value="gender">
-  <label for="vehicle3">Gender Identity</label><br><br>
+  <label for="vehicle3">Gender Identity</label><br>
   <input type="checkbox" id="community" name="community" value="ethnicity">
-  <label for="vehicle3">Ethnicity</label><br><br>
+  <label for="vehicle3">Ethnicity</label><br>
   <input type="checkbox" id="community" name="community" value="political">
-  <label for="vehicle3">Political</label><br><br>
+  <label for="vehicle3">Political</label><br>
   <input type="checkbox" id="community" name="community" value="other">
-  <label for="vehicle3">Other</label><br><br>
+  <label for="vehicle3">Other</label>
   <br><br>
   
   <label for="addcontext">Additional context:</label>
