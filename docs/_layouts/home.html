@@ -30,14 +30,17 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-          {%- for category in post.categories -%}
-            {%- if category contains "sexual" -%}<span class="post-meta">Sexodisidente</span>{%- endif -%}
-            {%- if category contains "gender" -%}<span class="post-meta">Identidade de Gênero</span>{%- endif -%}
-            {%- if category contains "race" -%}<span class="post-meta">Raça</span>{%- endif -%}
-            {%- if category contains "ethnicity" -%}<span class="post-meta">Etnia</span>{%- endif -%}
-            {%- if category contains "political" -%}<span class="post-meta">Político</span>{%- endif -%}
-            {%- if category contains "other" -%}<span class="post-meta">Outro</span>{%- endif -%}
-          {%- endfor -%}
+          <span class="post-meta">
+            {%- for category in post.categories -%}
+              {%- if category contains "sexual" -%}Sexodisidente{%- endif -%}
+              {%- if category contains "gender" -%}Identidade de Gênero{%- endif -%}
+              {%- if category contains "race" -%}Raça{%- endif -%}
+              {%- if category contains "ethnicity" -%}Etnia{%- endif -%}
+              {%- if category contains "political" -%}Político{%- endif -%}
+              {%- if category contains "other" -%}Outro{%- endif -%}
+              {%- if forloop.last == false -%}, {% endif %}
+            {%- endfor -%}
+          </span>
           <br>
           <span>{{ post.summary }}</span>
         </h3>
