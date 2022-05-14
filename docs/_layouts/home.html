@@ -31,8 +31,7 @@ layout: default
             {{ post.title | escape }}
           </a>
           {%- for category in post.categories -%}
-          <span class="post-meta">{{ category }}</span>
-            {%- if category == "sexual" -%}
+            {%- if category.contains("sexual") -%}
               <span class="post-meta">Sexodisidente</span>
             {%- endif -%}
             {%- if category == "gender" -%}
