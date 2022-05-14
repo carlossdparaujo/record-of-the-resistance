@@ -30,26 +30,27 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-          {% for category in post.categories %}
-            {% if category == "sexual" %}
+          {%- for category in post.categories -%}
+          <span class="post-meta">{{ category }}</span>
+            {%- if category == "sexual" -%}
               <span class="post-meta">Sexodisidente</span>
-            {% endif %}
-            {% if category == "gender" %}
+            {%- endif -%}
+            {%- if category == "gender" -%}
               <span class="post-meta">Identidade de Gênero</span>
-            {% endif %}
-            {% if category == "race" %}
+            {%- endif -%}
+            {%- if category == "race" -%}
               <span class="post-meta">Raça</span>
-            {% endif %}
-            {% if category == "ethnicity" %}
+            {%- endif -%}
+            {%- if category == "ethnicity" -%}
               <span class="post-meta">Etnia</span>
-            {% endif %}
-            {% if category == "political" %}
+            {%- endif -%}
+            {%- if category == "political" -%}
               <span class="post-meta">Político</span>
-            {% endif %}
-            {% if category == "other" %}
+            {%- endif -%}
+            {%- if category == "other" -%}
               <span class="post-meta">Outro</span>
-            {% endif %}
-          {% endfor %}
+            {%- endif -%}
+          {%- endfor -%}
           <br>
           <span>{{ post.summary }}</span>
         </h3>
