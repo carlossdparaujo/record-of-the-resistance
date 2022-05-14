@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Archivo Culturas Subterraneas"
-date:   2022-05-13 18:53:00 -0300
+date:   2022-05-14 05:21:00 -0300
 categories: political
 summary: "Somos um projeto coletivo de arquivo e catalogação de produções culturais de carater alternativo e periférico"
 ---
