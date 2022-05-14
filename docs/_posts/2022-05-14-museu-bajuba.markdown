@@ -6,7 +6,7 @@ categories: sexual, gender
 summary: "O Museu Bajubá é um museu para a pesquisa, valorização, salvaguarda e divulgação do patrimônio histórico da população LGBTI+"
 ---
 
-# Moléculas Malucas
+# Museu Bajubá
 
 * [Link para projeto](https://museubajuba.org/apoie/)
 * [Link para redes sociais](https://www.instagram.com/museubajuba/)
