@@ -31,7 +31,7 @@ layout: default
             {{ post.title | escape }}
           </a>
           {%- for category in post.categories -%}
-            {%- capture is_sexual -%}{%- if category contains "sexual" -%}<span class="post-meta">Sexodisidente</span>{%- endif -%}{%- endcapture -%}
+            {%- if category contains "sexual" -%}<span class="post-meta">Sexodisidente</span>{%- endif -%}
             {%- capture is_gender -%}{%- if category contains "gender" -%}<span class="post-meta">Identidade de Gênero</span>{%- endif -%}{%- endcapture -%}
             {%- capture is_race -%}{%- if category contains "race" -%}<span class="post-meta">Raça</span>{%- endif -%}{%- endcapture -%}
             {%- capture is_ethnicity -%}{%- if category contains "ethnicity" -%}<span class="post-meta">Etnia</span>{%- endif -%}{%- endcapture -%}
