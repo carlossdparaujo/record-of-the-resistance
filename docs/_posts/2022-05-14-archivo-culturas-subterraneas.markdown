@@ -6,7 +6,7 @@ categories: political
 summary: "Somos um projeto coletivo de arquivo e catalogação de produções culturais de carater alternativo e periférico"
 ---
 
-# Archivos Desviados
+# Archivo Culturas Subterraneas
 
 * [Link para projeto](http://www.archivosubterraneo.com.ar)
 * [Link para redes sociais](https://www.instagram.com/archivosubterraneo/)
