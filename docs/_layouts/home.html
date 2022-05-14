@@ -32,11 +32,11 @@ layout: default
           </a>
           {%- for category in post.categories -%}
             {%- if category contains "sexual" -%}<span class="post-meta">Sexodisidente</span>{%- endif -%}
-            {%- capture is_gender -%}{%- if category contains "gender" -%}<span class="post-meta">Identidade de Gênero</span>{%- endif -%}{%- endcapture -%}
-            {%- capture is_race -%}{%- if category contains "race" -%}<span class="post-meta">Raça</span>{%- endif -%}{%- endcapture -%}
-            {%- capture is_ethnicity -%}{%- if category contains "ethnicity" -%}<span class="post-meta">Etnia</span>{%- endif -%}{%- endcapture -%}
-            {%- capture is_political -%}{%- if category contains "political" -%}<span class="post-meta">Político</span>{%- endif -%}{%- endcapture -%}
-            {%- capture is_other -%}{%- if category contains "other" -%}<span class="post-meta">Outro</span>{%- endif -%}{%- endcapture -%}
+            {%- if category contains "gender" -%}<span class="post-meta">Identidade de Gênero</span>{%- endif -%}
+            {%- if category contains "race" -%}<span class="post-meta">Raça</span>{%- endif -%}
+            {%- if category contains "ethnicity" -%}<span class="post-meta">Etnia</span>{%- endif -%}
+            {%- if category contains "political" -%}<span class="post-meta">Político</span>{%- endif -%}
+            {%- if category contains "other" -%}<span class="post-meta">Outro</span>{%- endif -%}
           {%- endfor -%}
           <br>
           <span>{{ post.summary }}</span>
