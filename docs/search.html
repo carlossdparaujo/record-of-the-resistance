@@ -37,7 +37,7 @@ permalink: /search/
     {% for post in site.posts %}
       "{{ post.url | slugify }}": {
         "title": "{{ post.title | xml_escape }}",
-        "categories": "{{ post.categories | xml_escape }}",
+        "categories": "{{ post.categories }}",
         "summary": "{{ post.summary | xml_escape }}",
         "url": "{{ post.url | relative_url }}"
       }
