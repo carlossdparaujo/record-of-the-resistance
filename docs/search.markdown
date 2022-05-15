@@ -4,7 +4,7 @@ title: Pesquisar
 permalink: /search/
 ---
 
-<form action="/record-of-the-resistance/search.html" method="get">
+<form action="/record-of-the-resistance/search" method="get">
   <label for="search-filters" style="font-weight: bold">Busca</label><br>
   <input type="checkbox" id="categories" name="categories" value="sexual">
   <label for="categories">Sexo disidente</label><br>
