@@ -6,18 +6,25 @@ permalink: /search/
 
 <form action="{{ site.baseurl }}/search" method="get">
   <label for="search-filters" style="font-weight: bold">Busca</label><br>
-  <input type="checkbox" id="categories" name="categories" value="sexual">
-  <label for="categories">Sexo disidente</label><br>
-  <input type="checkbox" id="categories" name="categories" value="race">
-  <label for="categories">Raça</label><br>
-  <input type="checkbox" id="categories" name="categories" value="gender">
-  <label for="categories">Identidade de Gênero</label><br>
-  <input type="checkbox" id="categories" name="categories" value="ethnicity">
-  <label for="categories">Etinia</label><br>
-  <input type="checkbox" id="categories" name="categories" value="political">
-  <label for="categories">Político</label><br>
-  <input type="checkbox" id="categories" name="categories" value="other">
-  <label for="categories">Outro</label>
+  
+  <input type="checkbox" id="category-sexual" name="category-sexual" value="sexual">
+  <label for="category-sexual">Sexo disidente</label><br>
+  
+  <input type="checkbox" id="category-race" name="category-race" value="race">
+  <label for="category-race">Raça</label><br>
+  
+  <input type="checkbox" id="category-gender" name="category-gender" value="gender">
+  <label for="category-gender">Identidade de Gênero</label><br>
+  
+  <input type="checkbox" id="category-ethnicity" name="category-ethnicity" value="ethnicity">
+  <label for="category-ethnicity">Etinia</label><br>
+  
+  <input type="checkbox" id="category-political" name="category-political" value="political">
+  <label for="category-political">Político</label><br>
+  
+  <input type="checkbox" id="category-other" name="category-other" value="other">
+  <label for="category-other">Outro</label>
+  
   <input type="submit" value="search">
 </form>
 
