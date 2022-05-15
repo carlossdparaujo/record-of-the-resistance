@@ -7,7 +7,7 @@ function doIt() {
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i]];
-        appendString += '<li><a href="{{ ' + item.url + ' | relative_url }}"><h3>' + item.title + '</h3></a>';
+        appendString += '<li><a href="record-of-the-resistance/' + item.url + '"><h3>' + item.title + '</h3></a>';
         appendString += '<p>' + item.summary + '</p></li>';
       }
 
