@@ -4,20 +4,20 @@ title: Pesquisar
 permalink: /search/
 ---
 
-<form action="/record-of-the-resistance/search.markdown" method="get">
+<form action="/record-of-the-resistance/search.html" method="get">
   <label for="search-filters" style="font-weight: bold">Busca</label><br>
-  <input type="checkbox" id="sexual_community" name="sexual_community" value="sexual">
-  <label for="sexual_community">Sexo disidente</label><br>
-  <input type="checkbox" id="race_community" name="race_community" value="race">
-  <label for="race_community">Raça</label><br>
-  <input type="checkbox" id="gender_community" name="gender_community" value="gender">
-  <label for="gender_community">Identidade de Gênero</label><br>
-  <input type="checkbox" id="ethnicity_community" name="ethnicity_community" value="ethnicity">
-  <label for="ethnicity_community">Etinia</label><br>
-  <input type="checkbox" id="political_community" name="political_community" value="political">
-  <label for="political_community">Político</label><br>
-  <input type="checkbox" id="other_community" name="other_community" value="other">
-  <label for="other_community">Outro</label>
+  <input type="checkbox" id="categories" name="categories" value="sexual">
+  <label for="categories">Sexo disidente</label><br>
+  <input type="checkbox" id="categories" name="categories" value="race">
+  <label for="categories">Raça</label><br>
+  <input type="checkbox" id="categories" name="categories" value="gender">
+  <label for="categories">Identidade de Gênero</label><br>
+  <input type="checkbox" id="categories" name="categories" value="ethnicity">
+  <label for="categories">Etinia</label><br>
+  <input type="checkbox" id="categories" name="categories" value="political">
+  <label for="categories">Político</label><br>
+  <input type="checkbox" id="categories" name="categories" value="other">
+  <label for="categories">Outro</label>
   <input type="submit" value="search">
 </form>
 
