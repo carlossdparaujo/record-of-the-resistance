@@ -38,6 +38,8 @@ function doIt() {
   var otherCategoryFilter = getQueryVariable('category-other');
   var allFilters = [sexualCategoryFilter, raceCategoryFilter, genderCategoryFilter, ethnicityCategoryFilter, politicalCategoryFilter, otherCategoryFilter];
 
+  console.log(allFilters)
+  
   if (allFilters.length > 0) {
     var results = []
     for (var key in window.store) {
