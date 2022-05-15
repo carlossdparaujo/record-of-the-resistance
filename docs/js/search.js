@@ -30,14 +30,21 @@ function doIt() {
     }
   }
 
-  // category filter only
-  var searchTerm = getQueryVariable('categories');
+  var sexualCategoryFilter = getQueryVariable('category-sexual');
+  var raceCategoryFilter = getQueryVariable('category-race');
+  var genderCategoryFilter = getQueryVariable('category-gender');
+  var ethnicityCategoryFilter = getQueryVariable('category-ethnicity');
+  var politicalCategoryFilter = getQueryVariable('category-political');
+  var otherCategoryFilter = getQueryVariable('category-other');
+  var allFilters = [sexualCategoryFilter, raceCategoryFilter, genderCategoryFilter, ethnicityCategoryFilter, politicalCategoryFilter, otherCategoryFilter];
 
-  if (searchTerm) {
+  if (allFilters.length > 0) {
     var results = []
-    for (var key in window.store) { // Add the data to lunr
-      if (window.store[key].categories.includes(searchTerm)) {
-        results.push(key);
+    for (var key in window.store) {
+      for (var filter in allFilters) {
+        if (window.store[key].categories.includes(filter)) {
+          results.push(key);
+        }
       }
     }
     
