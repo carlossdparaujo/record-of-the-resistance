@@ -36,7 +36,7 @@ function doIt() {
   if (searchTerm) {
     var results = []
     for (var key in window.store) { // Add the data to lunr
-      if (window.store[key].categories.contains(searchTerm)) {
+      if (window.store[key].categories.includes(searchTerm)) {
         results.push(key);
       }
     }
