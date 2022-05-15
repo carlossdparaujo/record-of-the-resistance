@@ -1,7 +1,9 @@
 ---
 layout: page
-title: "Pesquisar"
+title: Pesquisar
+permalink: /search/
 ---
+
 <form action="/search.html" method="get">
   <label for="search-filters" style="font-weight: bold">Busca</label><br>
   <input type="checkbox" id="sexual_community" name="sexual_community" value="sexual">
