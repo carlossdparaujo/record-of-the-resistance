@@ -13,7 +13,7 @@ function doIt() {
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<li>No results found</li>';
+      searchResults.innerHTML = '<li>Nenhum resultado encontrado</li>';
     }
   }
 
