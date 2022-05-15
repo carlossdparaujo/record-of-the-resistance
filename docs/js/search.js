@@ -1,4 +1,4 @@
-function() {
+function doIt() {
   function displaySearchResults(results, store) {
     var searchResults = document.getElementById('search-results');
 
@@ -60,4 +60,6 @@ function() {
       displaySearchResults(results, window.store); // We'll write this in the next section
     }
   }
-})();
+});
+
+doIt();
