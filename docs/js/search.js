@@ -44,9 +44,10 @@ function doIt() {
     var results = []
     for (var key in window.store) {
       console.log(window.store[key]);
-      for (var filter in allFilters) {
+      for (var i = 0; i < allFilters.length; i++) {
+        var filter = allFilters[i]
         console.log(filter);
-        if (window.store[key].categories.includes(filter)) {
+        if (filter && window.store[key].categories.includes(filter)) {
           console.log(key);
           results.push(key);
         }
