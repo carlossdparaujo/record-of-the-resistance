@@ -38,13 +38,16 @@ function doIt() {
   var otherCategoryFilter = getQueryVariable('category-other');
   var allFilters = [sexualCategoryFilter, raceCategoryFilter, genderCategoryFilter, ethnicityCategoryFilter, politicalCategoryFilter, otherCategoryFilter];
 
-  console.log(allFilters)
+  console.log(allFilters);
   
   if (allFilters.length > 0) {
     var results = []
     for (var key in window.store) {
+      console.log(window.store[key]);
       for (var filter in allFilters) {
+        console.log(filter);
         if (window.store[key].categories.includes(filter)) {
+          console.log(key);
           results.push(key);
         }
       }
