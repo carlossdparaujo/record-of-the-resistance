@@ -36,7 +36,14 @@ function doIt() {
   var ethnicityCategoryFilter = getQueryVariable('category-ethnicity');
   var politicalCategoryFilter = getQueryVariable('category-political');
   var otherCategoryFilter = getQueryVariable('category-other');
-  var allFilters = [sexualCategoryFilter, raceCategoryFilter, genderCategoryFilter, ethnicityCategoryFilter, politicalCategoryFilter, otherCategoryFilter];
+  var allFilters = [
+    sexualCategoryFilter, 
+    raceCategoryFilter, 
+    genderCategoryFilter, 
+    ethnicityCategoryFilter, 
+    politicalCategoryFilter, 
+    otherCategoryFilter
+  ].filter(value => value).sort();
 
   console.log(allFilters);
   
@@ -44,10 +51,10 @@ function doIt() {
     var results = []
     for (var key in window.store) {
       console.log(window.store[key]);
+      var categories = window.store[key].categories.split(', ').sort()
       for (var i = 0; i < allFilters.length; i++) {
-        var filter = allFilters[i]
-        console.log(filter);
-        if (filter && window.store[key].categories.includes(filter)) {
+        console.log(allFilters[i], categories[i]);
+        if (categories[i] == allFilters[i]) {
           console.log(key);
           results.push(key);
         }
