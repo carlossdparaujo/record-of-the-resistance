@@ -44,23 +44,19 @@ function doIt() {
     politicalCategoryFilter, 
     otherCategoryFilter
   ].filter(value => value).sort().join();
-
-  console.log(allFilters);
   
   if (allFilters.length > 0) {
     var results = []
     for (var key in window.store) {
-      console.log(window.store[key]);
       var categories = window.store[key].categories.split(',').sort().join()
       var addToResults = true
       
       if (categories.includes(allFilters)) {
-       console.log(key);
        results.push(key);
       }
     }
     
-    displaySearchResults(results, window.store); // We'll write this in the next section
+    displaySearchResults(results, window.store);
   }
 }
 
