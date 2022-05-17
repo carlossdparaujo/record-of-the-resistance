@@ -43,7 +43,7 @@ function doIt() {
     ethnicityCategoryFilter, 
     politicalCategoryFilter, 
     otherCategoryFilter
-  ].filter(value => value).sort();
+  ].filter(value => value).sort().join();
 
   console.log(allFilters);
   
@@ -51,13 +51,12 @@ function doIt() {
     var results = []
     for (var key in window.store) {
       console.log(window.store[key]);
-      var categories = window.store[key].categories.split(', ').sort()
-      for (var i = 0; i < allFilters.length; i++) {
-        console.log(allFilters[i], categories[i]);
-        if (categories[i] == allFilters[i]) {
-          console.log(key);
-          results.push(key);
-        }
+      var categories = window.store[key].categories.split(',').sort().join()
+      var addToResults = true
+      
+      if (categories.includes(allFilters)) {
+       console.log(key);
+       results.push(key);
       }
     }
     
